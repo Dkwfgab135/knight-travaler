@@ -155,10 +155,12 @@ function submit() {
 
             ajuda = Math.floor(Math.random() * 5)
 
-            if (ajuda >= 2) {
+            if (ajuda > 1) {
                 hp = hp + 40
                 alert("As sombras se unem ao cavaleiro, isso o revigora: " + hp)
-            } else {
+            } 
+            
+            else {
                 hpi = hpi + 40
                 alert("a magia de cura estora, aproveitando o dragão inala a cura se recuperando: " + hpi)
             }
