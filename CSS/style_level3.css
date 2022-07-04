@@ -15,7 +15,8 @@ body {
 
 html {
     box-shadow: 40px 40px 100px 100px rgba(227, 249, 255, 0.842) inset;
-    padding: 390px;
+    padding: 303px;
+    height: 20%;
 }
 
 .footer {

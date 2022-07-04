@@ -21,7 +21,8 @@ body{
 
 html{
     box-shadow: 10px 10px 100px 100px rgba(0, 0, 0, 0.5) inset; 
-    padding: 383px;
+    padding: 303px;
+    height: 20%;
 }
 
 .footer{
