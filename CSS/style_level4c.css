@@ -13,6 +13,7 @@ body {
     background-image: url("../imagens/cenario/background4.png");
     background-size: 100%;
     background-position: 80%;
+    height: 100%;
 
     overflow: hidden;
 }
