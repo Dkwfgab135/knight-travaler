@@ -152,9 +152,9 @@ function submit() {
 
             var magia_a, dark = 40, miss = 40
 
-            magia_a = Math.floor(Math.random() * 7)
+            magia_a = Math.floor(Math.random() * 3)
 
-            if (magia_a >= 4) {
+            if (magia_a > 0) {
 
                 alert(" uma magia proibida é exalada da armadura do cavaleiro, uma sombra drena a energia de um dos seres")
                 hpi = hpi - dark
