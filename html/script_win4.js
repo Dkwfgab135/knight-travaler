@@ -40,7 +40,7 @@ document.write(`
 
       <p class="info"> A besta cai perante seus pés, tu é mais agora, sua esperteza é a maior, seu poder é maior, sua força, seus requisitos chegam ao limite, você é deus agora, faça o que quiser com estes poderes... GAME OVER</p>
 
-      <a href="../html/home.html" >
+      <a href="../home.html" >
         <button id="binst">fim?</button>
       </a>
 
