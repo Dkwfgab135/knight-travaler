@@ -118,7 +118,7 @@ document.querySelector(".pegar").classList.add('surgir')
 }
 
 function tchau(){
-  window.location.href = "../html/home.html"
+  window.location.href = "../home.html"
 }
 </script>
 </body>
