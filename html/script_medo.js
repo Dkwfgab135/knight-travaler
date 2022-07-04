@@ -1,5 +1,4 @@
-document.write(`
-<!DOCTYPE html>
+document.write(`<!DOCTYPE html>
 <html lang="pt=br" class="fixed">
 
 <head>
