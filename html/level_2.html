@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <title>Level 2</title>
+
+    <link rel="stylesheet" href="../CSS/style_level2.css">
+
+</head>
+<body>
+    
+
+    </script>
+
+    <div id="conteudo"> 
+
+    <section>
+    <img src="../imagens/Personagens/cavaleiro2.gif" height="750" width="750" id="cavaleiro">
+     
+    </section>
+
+    
+    </div>
+
+    <div id="conteudo2">
+
+        <section>
+        <img src="../imagens/Personagens/escorpiao.gif" height="150" width="185" id="escorpiao">  
+        </section>
+        </div>
+    
+
+        <div class="footer" id="pag1">
+            <footer >
+           
+                <p class="info">Em dias de caminhadas voce<br> depara-se com<br> o raro escorpião gigantesco<br> o que deseja fazer?</p>
+                
+                        <input type="text" id="acao" value="0"></input>
+    
+                        <p class="info2">
+                            1 - Ataque &nbsp;
+                            2 - poção <br><br>
+                            3 - magia &nbsp;
+                            4 - habilidades <br>
+                            </p>
+                <button type="submit" class="vai" id="bvai" onclick="submit()">vai!</button>
+    
+            <button onclick="document.getElementById('pag2').style.display='block'" id="binst">Instruções</button>
+                            
+            </footer>
+        </div>
+    
+        <div id="pag2" class="instr">
+            <div class="modal-content">
+              <div>
+
+                <button onclick="document.getElementById('pag2').style.display='none'" id="binst"> voltar </button>
+               <p class="p"> 1 - o cavaleiro é bem treinado<br> mas não é perfeito<br> seus ataques variam de 0 a 20. <br><br>
+                 2 - tomando uma poção divina<br> recebe mais vida de 0 a 20.</p>
+               <p class="p2"> 3 - com seu poder magico<br> tu tens a probabilidade de 2 em 3<br>
+                para retirar a vitalidade do inimigo.<br> a magia pode dar errado e te machucar<br><br>
+                4- voce roubou uma habilidade: faca retalhada;<br> seus ataques variam de de 0 a 17 +5.
+                </p>
+
+                <!-- <button onclick="document.getElementById('pag3').style.display='block'" id="binst1"> pagina 2 </button> -->
+              </div>
+            </div>
+          </div>
+<!-- 
+          <div id="pag3" class="instr">
+            <div class="modal-content">
+              <div>
+                <button onclick="document.getElementById('pag3').style.display='none'" id="binst"> pag 1 </button>
+               <p class="p"> 1 </p>
+               <p class="p2"> 3 </p>
+                </p>
+              </div>
+            </div>
+          </div -->
+
+
+    <script src="../html/script_2.js"></script>
+</body>
+</html>

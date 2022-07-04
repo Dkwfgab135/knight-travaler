@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>voce nâo deveria estar aqui</title>
+
+
+    <link rel="stylesheet" href="../CSS/style_lord.css">
+
+</head>
+
+<body>
+
+
+    <div id="conteudo">
+        <section>
+            <img src="../imagens/Personagens/cavaleiro.gif" height="750" width="750" id="cavaleiro">
+
+        </section>
+    </div>
+
+
+    <div class="wrap">
+        <div id="conteudo2">
+
+            <section>
+
+            </section>
+        </div>
+    </div>
+
+
+    <div class="footer" id="pag1" class="wrap">
+        <footer>
+
+            <p class="info">não há nada que voce possa fazer...</p>
+
+            <input type="text" id="acao" value="0"></input>
+
+            <p class="info2">
+                ?
+            </p>
+            <button type="submit" class="vai" id="bvai" onclick="submit()">não tente</button>
+
+            <button onclick="document.getElementById('pag2').style.display='block'" id="binst">?</button>
+
+        </footer>
+    </div>
+
+    <div id="pag2" class="instr">
+        <div class="modal-content">
+            <div>
+
+                <button onclick="document.getElementById('pag2').style.display='none'" id="binst"> voltar </button>
+                <p class="p">?</p>
+                <p class="p2">?</p>
+
+
+                <button onclick="document.getElementById('pag3').style.display='block'" id="binst1"> pagina 2 </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="pag3" class="instr">
+        <div class="modal-content">
+            <div>
+                <button onclick="document.getElementById('pag3').style.display='none'" id="binst"> pag 1 </button>
+                <p class="p">?</p>
+                <p class="p2">?</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../html/lorde.js"></script>
+</body>
+
+</html>

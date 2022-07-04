@@ -1,0 +1,72 @@
+body{
+    background-image: url("../imagens/cenario/menu.jpg");
+    background-size: 100%;
+    background-position: 100%;
+}
+
+.top{
+  position: absolute;
+  padding: 10px;
+  margin-top: 10px;
+}
+img{
+  position:absolute;
+  left: 1px;
+  bottom: 350px;
+}
+
+h3{
+
+  text-align: bottom;
+  margin-right: 10px;
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+button{
+    
+    border: none;
+  color: rgb(0, 0, 0);
+  padding: 30px 85px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Power Red and Blue";
+}
+
+.button1{
+    position:absolute;
+    background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  right: 200px;
+  bottom: 250px;
+}
+
+.button1:hover{
+
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2{
+    position:absolute;
+    right: 200px;
+    bottom: 100px;
+    background-color: white; 
+  color: black; 
+  border: 2px solid #3b0ac4;
+}
+
+.button2:hover{
+   
+    background-color: #3b0ac4;
+    color: white;
+}

@@ -1,0 +1,136 @@
+
+/* animação */
+/* .op-0{
+    opacity: 0%;
+} */
+
+div.wrap {height:100%; overflow:hidden;}
+
+#sombra{
+    animation-name: sombra;
+    animation-duration: 2s;
+    position: absolute;
+    left: 1200px;
+    bottom: 157px;
+    width: 800px;
+    height: 400px;
+    z-index: 0;
+    opacity: 90%;
+
+}
+
+#dragao{
+    animation-name: dragao;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    animation-delay: 3s;
+    position: absolute;
+    right: -150px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.opac-0{
+    opacity: 0%;
+}
+
+#maodg{
+    animation-name: maodg;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    position: absolute;
+    right: -150px;
+    bottom: 40px;
+    z-index: 2;
+} 
+
+#pag1{
+    animation-name: pag;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity: 0%;
+}
+
+#particulas{
+    animation-name: part;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0%;
+}
+
+@keyframes part{
+    0%{
+        opacity: 0%;
+    }
+
+    80%{
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 80%;
+    }
+}
+
+@keyframes pag{
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes dragao{
+    0%{
+        right: -200px;
+        bottom: 500px;
+        opacity: 100%;
+    }
+
+    100%{
+        right: -150px;
+        bottom: 40px;
+        opacity: 100%;
+    }
+}
+
+@keyframes sombra{
+
+    0%{
+        left: -2000px;
+        width: 1400px;
+        opacity: 50%;
+    }
+    80%{
+        left: 1200px;
+        opacity: 50%;
+    }
+
+    90%{
+        opacity: 60%;
+    }
+    100%{
+        opacity: 85%;
+    }
+}
+
+@keyframes maodg{
+    0%{
+        right: -200px;
+        bottom: 500px;
+        opacity: 100%;
+    }
+
+    100%{
+        right: -100px;
+        bottom: 30px;
+        opacity: 100%;
+    }
+
+    
+}

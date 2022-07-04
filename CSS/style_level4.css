@@ -1,0 +1,305 @@
+* {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../imagens/cenario/background4.png");
+    background-size: 100%;
+    background-position: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    box-shadow: 40px 40px 100px 100px rgba(255, 0, 0, 0.26) inset;
+    padding: 303px;
+    height: 20%;
+}
+
+div.wrap {
+    height: 100%;
+    overflow: hidden;
+}
+
+#sombra {
+    left: 1000px;
+    bottom: 157px;
+    width: 500px;
+    height: 400px;
+    z-index: 0;
+    opacity: 90%;
+}
+
+.footer {
+    padding: 100px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    right: 150px;
+    border-radius: 1px;
+    border: 5px double #df0000;
+    z-index: 3;
+}
+
+
+#instr {
+    position: absolute;
+    padding: 90px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    bottom: 30px;
+    left: 200px;
+    right: 200px;
+    border-radius: 25px;
+    border: 3px solid #0331ff;
+}
+
+.info {
+    font-size: 30px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+.bclose {
+    padding: 15px;
+    height: 20px;
+    width: 20px;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.bclose:hover {
+    background-color: #bdbdbd;
+    color: rgb(89, 0, 255);
+}
+
+#binst {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+#binst1 {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+}
+
+#binst1:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+#binst:hover {
+    background-color: #000000;
+    color: white;
+}
+
+#pag2 {
+    padding: 100px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    right: 150px;
+    border-radius: 1px;
+    border: 5px double #000000;
+    display: none;
+    z-index: 3;
+}
+
+#pag2:target {
+    display: block;
+}
+
+#pag3 {
+    padding: 100px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    right: 150px;
+    border-radius: 1px;
+    border: 5px double #ff0000;
+    display: none;
+    z-index: 3;
+}
+
+#pag3:target {
+    display: block;
+}
+
+.info2 {
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+}
+
+input {
+    font-size: 20px;
+    padding: 20px;
+    height: 5px;
+    width: 35px;
+    position: absolute;
+    right: 370px;
+    bottom: 100px;
+}
+
+.vai {
+    border: none;
+    color: rgb(145, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 250px;
+    bottom: 20px;
+}
+
+.vai:hover {
+    background-color: rgb(145, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#conteudo,
+#conteudo2 {
+    padding: 500px;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    right: 10px;
+    /* background-color: #922fe4; */
+}
+
+#dragao {
+    position: absolute;
+    right: -170px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+#maodg {
+    position: absolute;
+    right: -20px;
+    bottom: 40px;
+    z-index: 2;
+}
+
+#cavaleiro {
+    position: absolute;
+    left: 10px;
+    bottom: -100px;
+    z-index: 1;
+}
+
+#particulas {
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+    z-index: 0;
+}
+
+#div {
+    padding: 20;
+    background-color: #0331ff;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+}
+
+
+/* 
+#tdvida{
+    background-color: rgba(119, 0, 255, 0.13);
+    position: absolute;
+    left: 350px;
+    top: 170px;
+    padding: 10;
+    height: 20px;
+    width: 100px;
+}
+
+#vida{
+    position: absolute;
+    left: 1px;
+    align-items: left;
+}
+#vida2{
+    position: absolute;
+    right: 1px;
+    align-items: right;
+}
+#tdvida2{
+    background-color: rgba(119, 0, 255, 0.13);
+    position: absolute;
+    right: 350px;
+    top: 170px;
+    padding: 10;
+    height: 20px;
+    width: 100px;
+} */
+
+.p {
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+.p2 {
+    text-align: left;
+    font-size: 18px;
+    position: absolute;
+    right: 167px;
+    bottom: 10px;
+}
+
+.p3 {
+    font-size: 18px;
+    position: absolute;
+    left: 10px;
+    bottom: 100px;
+}
+
+.p4 {
+    font-size: 18px;
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+}
